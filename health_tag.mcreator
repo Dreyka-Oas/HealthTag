@@ -1,0 +1,51 @@
+{
+  "mod_elements": [
+    {
+      "name": "ShowHealth",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "show_health",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/healthtag/procedures/ShowHealthProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "health_tag",
+    "modName": "Health Tag",
+    "version": "1.0.0",
+    "description": "Displays entity health as nametags",
+    "author": "Dreyka Oas",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "oas.work.healthtag"
+  },
+  "mcreatorVersion": 202400340615
+}

@@ -33,7 +33,7 @@
   "workspaceSettings": {
     "modid": "health_tag",
     "modName": "Health Tag",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "Displays entity health as nametags",
     "author": "Dreyka Oas",
     "websiteURL": "https://github.com/Dreyka-Oas/Health-Tag.git",
@@ -48,5 +48,5 @@
     "credits": "Dreyka Oas",
     "modElementsPackage": "oas.work.healthtag"
   },
-  "mcreatorVersion": 202400340615
+  "mcreatorVersion": 202400445618
 }

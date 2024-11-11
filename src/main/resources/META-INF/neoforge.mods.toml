@@ -4,7 +4,7 @@ license="Apache License version 2.0"
 
 [[mods]]
 modId="health_tag"
-version="1.0.1"
+version="1.0.3"
 displayName="Health Tag"
 displayURL="https://github.com/Dreyka-Oas/Health-Tag.git"
 logoFile="logo.png"

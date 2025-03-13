@@ -1,342 +1,96 @@
-<<<<<<< Updated upstream
-[13Oct2024 15:27:20.514] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 21.1.65, --assetIndex, 17, --assetsDir, /home/dreyka-oas/.mcreator/gradle/caches/neoformruntime/assets, --gameDir, ., --fml.neoForgeVersion, 21.1.65, --fml.fmlVersion, 4.0.24, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
-[13Oct2024 15:27:20.517] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
-[13Oct2024 15:27:20.518] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.4 by Eclipse Adoptium; OS Linux arch amd64 version 6.11.0-1004-lowlatency
-[13Oct2024 15:27:20.626] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[13Oct2024 15:27:20.740] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[13Oct2024 15:27:20.823] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[13Oct2024 15:27:20.902] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/home/dreyka-oas/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23119!/ Service=ModLauncher Env=CLIENT
-[13Oct2024 15:27:20.974] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon Graphics (radeonsi, renoir, LLVM 19.1.0, DRM 3.58, 6.11.0-1004-lowlatency) GL version 4.6 (Core Profile) Mesa 24.2.3-1ubuntu1, AMD
-[13Oct2024 15:27:21.132] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[13Oct2024 15:27:21.605] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, 21.1.65, --gameDir, ., --assetsDir, /home/dreyka-oas/.mcreator/gradle/caches/neoformruntime/assets, --assetIndex, 17]
-[13Oct2024 15:27:23.110] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 220 milliseconds
-[13Oct2024 15:27:23.319] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[13Oct2024 15:27:27.524] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13Oct2024 15:27:27.525] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13Oct2024 15:27:27.527] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13Oct2024 15:27:27.528] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13Oct2024 15:27:27.529] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13Oct2024 15:27:27.631] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/media/dreyka-oas/Oas%20Work/Mcreator/HealthTag/build/moddev/artifacts/neoforge-21.1.65-minecraft.jar%23171!/assets/.mcassetsroot' uses unexpected schema
-[13Oct2024 15:27:27.631] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/media/dreyka-oas/Oas%20Work/Mcreator/HealthTag/build/moddev/artifacts/neoforge-21.1.65-minecraft.jar%23171!/data/.mcassetsroot' uses unexpected schema
-[13Oct2024 15:27:27.651] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13Oct2024 15:27:27.660] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[13Oct2024 15:27:27.738] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[13Oct2024 15:27:28.178] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.65, for MC 1.21.1
-[13Oct2024 15:27:28.773] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
-[13Oct2024 15:27:28.883] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/neoforge, mod/health_tag
-[13Oct2024 15:27:28.949] [Worker-Main-13/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
-[13Oct2024 15:27:28.989] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
-[13Oct2024 15:27:30.378] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[13Oct2024 15:27:30.378] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[13Oct2024 15:27:30.427] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device JBL WAVE BEAM
-[13Oct2024 15:27:30.428] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[13Oct2024 15:27:30.543] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
-[13Oct2024 15:27:30.563] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[13Oct2024 15:27:30.564] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[13Oct2024 15:27:30.565] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[13Oct2024 15:27:30.568] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[13Oct2024 15:27:30.574] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[13Oct2024 15:27:30.575] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[13Oct2024 15:27:30.575] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[13Oct2024 15:27:30.576] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[13Oct2024 15:27:30.767] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[13Oct2024 15:27:30.771] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[13Oct2024 15:27:30.772] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[13Oct2024 15:27:30.773] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[13Oct2024 15:27:30.774] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[13Oct2024 15:27:30.799] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[13Oct2024 15:27:30.853] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[13Oct2024 15:27:38.031] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-=======
-[13Mar2025 16:10:31.739] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, neoforgeclientdev, --version, 21.4.101-beta, --assetIndex, 19, --assetsDir, C:\\Users\\letermef\\.mcreator\\gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 6.0.11, --fml.mcVersion, 1.21.4, --fml.neoForgeVersion, 21.4.101-beta, --fml.neoFormVersion, 20241203.161809]
-[13Mar2025 16:10:31.743] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.5+11-LTS
-[13Mar2025 16:10:31.744] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.5 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[13Mar2025 16:10:31.835] [main/WARN] [net.neoforged.fml.loading.FMLConfig/CORE]: Configuration file D:\tmp\MCreator\HealthTag\run\config\fml.toml is not correct. Correcting
-[13Mar2025 16:10:31.886] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[13Mar2025 16:10:32.118] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[13Mar2025 16:10:32.309] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[13Mar2025 16:10:32.431] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/letermef/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23162!/ Service=ModLauncher Env=CLIENT
-[13Mar2025 16:10:32.446] [main/WARN] [net.neoforged.fml.loading.FMLConfig/CORE]: Configuration file D:\tmp\MCreator\HealthTag\run\config\fml.toml is not correct. Correcting
-[13Mar2025 16:10:32.709] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon(TM) Graphics GL version 4.6.14822 Core Profile Forward-Compatible Context 20.50.30.01 27.20.15030.1001, ATI Technologies Inc.
-[13Mar2025 16:10:33.089] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[13Mar2025 16:10:33.092] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[13Mar2025 19:55:26.511] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, neoforgeclientdev, --version, 21.4.101-beta, --assetIndex, 19, --assetsDir, C:\Users\Dreyka Oas\.mcreator\gradle\caches\neoformruntime\assets, --gameDir, ., --fml.fmlVersion, 6.0.11, --fml.mcVersion, 1.21.4, --fml.neoForgeVersion, 21.4.101-beta, --fml.neoFormVersion, 20241203.161809]
+[13Mar2025 19:55:26.513] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.5+11-LTS
+[13Mar2025 19:55:26.515] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.5 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[13Mar2025 19:55:26.619] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[13Mar2025 19:55:26.722] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[13Mar2025 19:55:26.790] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[13Mar2025 19:55:26.858] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Dreyka%20Oas/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23162!/ Service=ModLauncher Env=CLIENT
+[13Mar2025 19:55:27.023] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Radeon 7 GL version 4.6.0 Core Profile Context 25.3.1.250220, ATI Technologies Inc.
+[13Mar2025 19:55:27.151] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[13Mar2025 19:55:27.152] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
 		Health Tag 2.0.0 (health_tag)
 		Minecraft 1.21.4 (minecraft)
 		NeoForge 21.4.101-beta (neoforge)
-[13Mar2025 16:10:34.712] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'neoforgeclientdev' with arguments [--version, 21.4.101-beta, --gameDir, ., --assetsDir, C:\Users\letermef\.mcreator\gradle\caches\neoformruntime\assets, --assetIndex, 19]
-[13Mar2025 16:10:36.685] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 246 Datafixer optimizations took 600 milliseconds
-[13Mar2025 16:10:36.905] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[13Mar2025 16:10:42.829] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13Mar2025 16:10:42.831] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13Mar2025 16:10:42.834] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13Mar2025 16:10:42.835] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13Mar2025 16:10:42.836] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13Mar2025 16:10:42.995] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/tmp/MCreator/HealthTag/build/moddev/artifacts/neoforge-21.4.101-beta.jar%23215!/assets/.mcassetsroot' uses unexpected schema
-[13Mar2025 16:10:42.995] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/tmp/MCreator/HealthTag/build/moddev/artifacts/neoforge-21.4.101-beta.jar%23215!/data/.mcassetsroot' uses unexpected schema
-[13Mar2025 16:10:43.032] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13Mar2025 16:10:43.049] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[13Mar2025 16:10:43.166] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[13Mar2025 16:10:43.492] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.4.101-beta, for MC 1.21.4
-[13Mar2025 16:10:43.527] [Yggdrasil Key Fetcher/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo/]: Failed to request yggdrasil public key
-com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.57.jar%23136!/:?]
-	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.57.jar%23136!/:?]
-	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.57.jar%23136!/:?]
-	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.57.jar%23136!/:?]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1318) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1195) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1138) ~[?:?]
-	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447) ~[?:?]
-	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
-	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1614) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.57.jar%23136!/:?]
-	... 9 more
-Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
-	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
-	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
-	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230) ~[?:?]
-	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1302) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1195) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1138) ~[?:?]
-	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447) ~[?:?]
-	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
-	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1614) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.57.jar%23136!/:?]
-	... 9 more
-Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148) ~[?:?]
-	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129) ~[?:?]
-	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
-	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
-	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
-	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
-	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230) ~[?:?]
-	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1302) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1195) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1138) ~[?:?]
-	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447) ~[?:?]
-	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
-	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1614) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.57.jar%23136!/:?]
-	... 9 more
-[13Mar2025 16:10:43.527] [Download-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for 380df991-f603-344c-a090-369bad2a924a
-com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://sessionserver.mojang.com/session/minecraft/profile/380df991f603344ca090369bad2a924a?unsigned=false due to PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.57.jar%23136!/:?]
-	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.57.jar%23136!/:?]
-	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fetchProfileUncached(YggdrasilMinecraftSessionService.java:201) ~[authlib-6.0.57.jar%23136!/:?]
-	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fetchProfile(YggdrasilMinecraftSessionService.java:171) ~[authlib-6.0.57.jar%23136!/:?]
-	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.lambda$new$1(Minecraft.java:423) ~[neoforge-21.4.101-beta.jar%23215!/:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1318) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1195) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1138) ~[?:?]
-	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447) ~[?:?]
-	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
-	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1614) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.57.jar%23136!/:?]
-	... 8 more
-Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
-	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
-	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
-	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230) ~[?:?]
-	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1302) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1195) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1138) ~[?:?]
-	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447) ~[?:?]
-	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
-	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1614) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.57.jar%23136!/:?]
-	... 8 more
-Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148) ~[?:?]
-	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129) ~[?:?]
-	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
-	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
-	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
-	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
-	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230) ~[?:?]
-	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1302) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1195) ~[?:?]
-	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1138) ~[?:?]
-	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447) ~[?:?]
-	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
-	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1614) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.57.jar%23136!/:?]
-	... 8 more
-[13Mar2025 16:10:44.566] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
-[13Mar2025 16:10:44.736] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/neoforge, mod/health_tag
-[13Mar2025 16:10:44.852] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.01.hex, loading
-[13Mar2025 16:10:44.852] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.01.hex, loading
-[13Mar2025 16:10:47.211] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Haut-parleurs (Realtek(R) Audio)
-[13Mar2025 16:10:47.212] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[13Mar2025 16:10:47.383] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
-[13Mar2025 16:10:47.510] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[13Mar2025 16:10:47.511] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[13Mar2025 16:10:47.514] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[13Mar2025 16:10:47.516] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[13Mar2025 16:10:47.539] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[13Mar2025 16:10:47.541] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[13Mar2025 16:10:47.542] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[13Mar2025 16:10:47.544] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[13Mar2025 16:10:47.548] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[13Mar2025 16:10:47.744] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[13Mar2025 16:10:47.748] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[13Mar2025 16:10:47.749] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[13Mar2025 16:10:47.749] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[13Mar2025 16:10:47.768] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[13Mar2025 16:10:59.628] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1370 recipes
-[13Mar2025 16:10:59.642] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1481 advancements
-[13Mar2025 16:10:59.837] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.4
-[13Mar2025 16:10:59.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[13Mar2025 16:11:00.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13Mar2025 16:11:00.525] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 0 %
-[13Mar2025 16:11:00.790] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[13Mar2025 16:11:00.799] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 557 ms
-[13Mar2025 16:11:00.937] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[13Mar2025 16:11:00.937] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[13Mar2025 16:11:02.098] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:0c196836] logged in with entity id 40 at (-29.29174375677216, -60.0, 54.06616335602599)
-[13Mar2025 16:11:02.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev a rejoint la partie
-[13Mar2025 16:11:02.328] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Ignoring chat session from Dev due to missing Services public key
-[13Mar2025 16:11:02.334] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 82 advancements
-[13Mar2025 16:11:48.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev : L'entité "Piglin zombifié" a été invoquée]
-[13Mar2025 16:11:48.677] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] L'entité "Piglin zombifié" a été invoquée
-[13Mar2025 16:11:50.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev : L'entité "Piglin zombifié" a été invoquée]
-[13Mar2025 16:11:50.679] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] L'entité "Piglin zombifié" a été invoquée
-[13Mar2025 16:12:17.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev a réalisé le progrès [Chaud devant !]
-[13Mar2025 16:12:17.425] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev a réalisé le progrès [Chaud devant !]
-[13Mar2025 16:12:17.455] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 83 advancements
-[13Mar2025 16:12:18.706] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 86 advancements
-[13Mar2025 16:12:53.478] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Chicken['minecraft:chicken
-████████████████████'/39, l='ServerLevel[Nouveau monde]', x=-40.91, y=-60.00, z=67.09] died: minecraft:chicken
-████████████████████ s'est fait tuer par Dev
-[13Mar2025 16:13:07.270] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cow['minecraft:cow
-████████████████████'/65, l='ServerLevel[Nouveau monde]', x=-76.66, y=-60.00, z=78.78] died: minecraft:cow
-████████████████████ s'est fait tuer par Dev
-[13Mar2025 16:13:07.910] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 89 advancements
-[13Mar2025 16:13:09.719] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cow['minecraft:cow
-████████████████████'/96, l='ServerLevel[Nouveau monde]', x=-85.91, y=-60.00, z=77.49] died: minecraft:cow
-████████████████████ s'est fait tuer par Dev
-[13Mar2025 16:13:10.310] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 95 advancements
-[13Mar2025 16:13:16.973] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['minecraft:pig
-████████████████████'/101, l='ServerLevel[Nouveau monde]', x=-110.20, y=-60.00, z=95.81] died: minecraft:pig
-████████████████████ s'est fait tuer par Dev
-[13Mar2025 16:13:17.558] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 98 advancements
-[13Mar2025 16:13:18.844] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[13Mar2025 16:13:18.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:overworld
-[13Mar2025 16:13:18.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_end
-[13Mar2025 16:13:18.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_nether
-[13Mar2025 16:13:20.307] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[13Mar2025 16:13:20.353] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Déconnecté(e)
-[13Mar2025 16:13:20.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev a quitté la partie
-[13Mar2025 16:13:20.432] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[13Mar2025 16:13:20.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[13Mar2025 16:13:20.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[13Mar2025 16:13:20.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[13Mar2025 16:13:22.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:overworld
-[13Mar2025 16:13:23.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_end
-[13Mar2025 16:13:23.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_nether
-[13Mar2025 16:13:23.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Nouveau monde): All chunks are saved
-[13Mar2025 16:13:23.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13Mar2025 16:13:23.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13Mar2025 16:13:23.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
->>>>>>> Stashed changes
+[13Mar2025 19:55:27.882] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'neoforgeclientdev' with arguments [--version, 21.4.101-beta, --gameDir, ., --assetsDir, C:\Users\Dreyka Oas\.mcreator\gradle\caches\neoformruntime\assets, --assetIndex, 19]
+[13Mar2025 19:55:29.453] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 246 Datafixer optimizations took 350 milliseconds
+[13Mar2025 19:55:29.676] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13Mar2025 19:55:33.341] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13Mar2025 19:55:33.342] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13Mar2025 19:55:33.344] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13Mar2025 19:55:33.345] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13Mar2025 19:55:33.345] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13Mar2025 19:55:33.447] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/I:/Mcreator/1.21.4/HealthTag/build/moddev/artifacts/neoforge-21.4.101-beta.jar%23215!/assets/.mcassetsroot' uses unexpected schema
+[13Mar2025 19:55:33.447] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/I:/Mcreator/1.21.4/HealthTag/build/moddev/artifacts/neoforge-21.4.101-beta.jar%23215!/data/.mcassetsroot' uses unexpected schema
+[13Mar2025 19:55:33.486] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13Mar2025 19:55:33.493] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[13Mar2025 19:55:33.595] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[13Mar2025 19:55:33.841] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.4.101-beta, for MC 1.21.4
+[13Mar2025 19:55:34.483] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[13Mar2025 19:55:34.649] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/neoforge, mod/health_tag
+[13Mar2025 19:55:34.747] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.01.hex, loading
+[13Mar2025 19:55:34.747] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.01.hex, loading
+[13Mar2025 19:55:36.586] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Haut-parleurs (Pebble V3)
+[13Mar2025 19:55:36.586] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[13Mar2025 19:55:36.672] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[13Mar2025 19:55:36.677] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[13Mar2025 19:55:36.678] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[13Mar2025 19:55:36.678] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[13Mar2025 19:55:36.679] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[13Mar2025 19:55:36.683] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[13Mar2025 19:55:36.683] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[13Mar2025 19:55:36.683] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[13Mar2025 19:55:36.683] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[13Mar2025 19:55:36.685] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[13Mar2025 19:55:36.841] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[13Mar2025 19:55:36.842] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[13Mar2025 19:55:36.842] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[13Mar2025 19:55:36.842] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[13Mar2025 19:55:36.847] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[13Mar2025 19:56:10.085] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1370 recipes
+[13Mar2025 19:56:10.099] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1481 advancements
+[13Mar2025 19:56:15.611] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.4
+[13Mar2025 19:56:15.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Mar2025 19:56:17.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Mar2025 19:56:17.511] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 2 %
+[13Mar2025 19:56:17.994] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 2 %
+[13Mar2025 19:56:18.505] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 18 %
+[13Mar2025 19:56:18.995] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 51 %
+[13Mar2025 19:56:19.113] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[13Mar2025 19:56:19.117] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1624 ms
+[13Mar2025 19:56:19.166] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[13Mar2025 19:56:19.166] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[13Mar2025 19:56:20.005] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:e6119301] logged in with entity id 43 at (6.5, 108.0, -0.5)
+[13Mar2025 19:56:20.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev a rejoint la partie
+[13Mar2025 19:56:20.183] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[13Mar2025 19:57:11.624] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Panda['minecraft:panda : 1.0 / 20.0'/452, l='ServerLevel[Nouveau monde]', x=16.50, y=101.00, z=-10.50] died: minecraft:panda : 1.0 / 20.0 a suffoqué dans un mur
+[13Mar2025 19:57:23.022] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Panda['minecraft:panda : 1.0 / 20.0'/512, l='ServerLevel[Nouveau monde]', x=16.77, y=101.00, z=-5.65] died: minecraft:panda : 1.0 / 20.0 a suffoqué dans un mur
+[13Mar2025 19:57:24.271] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['minecraft:glow_squid : 2.0 / 10.0'/458, l='ServerLevel[Nouveau monde]', x=-41.39, y=28.00, z=-25.04] died: minecraft:glow_squid : 2.0 / 10.0 s'est noyé(e)
+[13Mar2025 19:57:29.574] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Panda['minecraft:panda : 1.0 / 20.0'/539, l='ServerLevel[Nouveau monde]', x=15.65, y=101.00, z=-8.35] died: minecraft:panda : 1.0 / 20.0 a suffoqué dans un mur
+[13Mar2025 19:57:30.133] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 5 advancements
+[13Mar2025 19:57:34.537] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Panda['minecraft:panda : 4.0 / 20.0'/546, l='ServerLevel[Nouveau monde]', x=17.35, y=101.00, z=-6.65] died: minecraft:panda : 4.0 / 20.0 s'est fait tuer par Dev
+[13Mar2025 19:57:34.583] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 41 advancements
+[13Mar2025 19:57:42.237] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Panda['minecraft:panda : 4.0 / 20.0'/631, l='ServerLevel[Nouveau monde]', x=17.64, y=103.00, z=-6.65] died: minecraft:panda : 4.0 / 20.0 s'est fait tuer par Dev
+[13Mar2025 19:57:43.321] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['minecraft:glow_squid : 2.0 / 10.0'/536, l='ServerLevel[Nouveau monde]', x=-50.48, y=24.00, z=-32.60] died: minecraft:glow_squid : 2.0 / 10.0 s'est noyé(e)
+[13Mar2025 19:57:43.472] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['minecraft:glow_squid : 2.0 / 10.0'/535, l='ServerLevel[Nouveau monde]', x=-53.57, y=24.00, z=-29.12] died: minecraft:glow_squid : 2.0 / 10.0 s'est noyé(e)
+[13Mar2025 19:57:47.837] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Panda['minecraft:panda : 4.0 / 20.0'/657, l='ServerLevel[Nouveau monde]', x=21.35, y=104.00, z=-5.65] died: minecraft:panda : 4.0 / 20.0 s'est fait tuer par Dev
+[13Mar2025 19:57:49.216] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[13Mar2025 19:57:49.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:overworld
+[13Mar2025 19:57:49.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_end
+[13Mar2025 19:57:49.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_nether
+[13Mar2025 19:57:49.824] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Déconnecté(e)
+[13Mar2025 19:57:49.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev a quitté la partie
+[13Mar2025 19:57:49.844] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[13Mar2025 19:57:49.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[13Mar2025 19:57:49.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[13Mar2025 19:57:49.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[13Mar2025 19:57:51.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:overworld
+[13Mar2025 19:57:51.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_end
+[13Mar2025 19:57:51.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_nether
+[13Mar2025 19:57:51.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Nouveau monde): All chunks are saved
+[13Mar2025 19:57:51.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13Mar2025 19:57:51.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13Mar2025 19:57:51.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13Mar2025 19:57:52.056] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

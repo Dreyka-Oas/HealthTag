@@ -1,10 +1,6 @@
 plugins {
     id 'eclipse'
-<<<<<<< Updated upstream
-    id 'net.neoforged.moddev' version '1.0.20'
-=======
     id 'net.neoforged.moddev' version '2.0.78'
->>>>>>> Stashed changes
 }
 
 version = '1.0'
@@ -13,15 +9,18 @@ base.archivesName = "modid"
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
 neoForge {
-<<<<<<< Updated upstream
-    version = "21.1.65"
-=======
     version = "21.4.101-beta"
->>>>>>> Stashed changes
 
     runs {
         client {
             client()
+
+            def mcreatorJvmOptions = System.getenv('MCREATOR_JVM_OPTIONS')
+            if (mcreatorJvmOptions) {
+                mcreatorJvmOptions.split("\\s+").findAll { it.trim() }.each { arg ->
+                    jvmArgument(arg)
+                }
+            }
         }
         server {
             server()
@@ -34,7 +33,7 @@ neoForge {
     }
 
     mods {
-        testproject {
+        mcreator {
             sourceSet sourceSets.main
         }
     }

@@ -15,8 +15,14 @@ prioritizeChunkUpdates:0
 fullscreen:false
 gamma:0.5
 graphicsMode:0
+<<<<<<< Updated upstream
 guiScale:0
 maxFps:260
+=======
+guiScale:3
+maxFps:260
+inactivityFpsLimit:"afk"
+>>>>>>> Stashed changes
 mipmapLevels:2
 narrator:0
 particles:0

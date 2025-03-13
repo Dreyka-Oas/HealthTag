@@ -1,1 +1,9 @@
 /always_show false
+<<<<<<< Updated upstream
+=======
+/kill @e
+/time set day
+/gamerule doDaylightCycle false
+/gamerule doWeatherCycle false
+/summon minecraft:zombified_piglin
+>>>>>>> Stashed changes

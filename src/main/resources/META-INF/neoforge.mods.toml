@@ -4,11 +4,7 @@ license="Apache License version 2.0"
 
 [[mods]]
 modId="health_tag"
-<<<<<<< Updated upstream
-version="1.0.3"
-=======
 version="2.0.0"
->>>>>>> Stashed changes
 displayName="Health Tag"
 displayURL="https://github.com/Dreyka-Oas/HealthTag.git"
 logoFile="logo.png"
@@ -22,18 +18,14 @@ description="Displays entity health as nametags"
 [[dependencies.health_tag]]
     modId="neoforge"
     type="required"
-<<<<<<< Updated upstream
-    versionRange="[21.1.65,)"
-=======
     versionRange="[21.4.101-beta,)"
->>>>>>> Stashed changes
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.health_tag]]
     modId="minecraft"
     type="required"
-    versionRange="[1.21.1]"
+    versionRange="[1.21.4]"
     ordering="AFTER"
     side="BOTH"
 

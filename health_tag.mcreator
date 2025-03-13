@@ -29,11 +29,7 @@
   "workspaceSettings": {
     "modid": "health_tag",
     "modName": "Health Tag",
-<<<<<<< Updated upstream
-    "version": "1.0.3",
-=======
     "version": "2.0.0 beta",
->>>>>>> Stashed changes
     "description": "Displays entity health as nametags",
     "author": "Dreyka Oas",
     "websiteURL": "https://github.com/Dreyka-Oas/HealthTag.git",
@@ -44,17 +40,9 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-<<<<<<< Updated upstream
-    "currentGenerator": "neoforge-1.21.1",
-    "credits": "Dreyka Oas",
-    "modElementsPackage": "oas.work.healthtag"
-  },
-  "mcreatorVersion": 202400445618
-=======
     "currentGenerator": "neoforge-1.21.4",
     "credits": "O.A.S",
     "modElementsPackage": "oas.work.healthtag"
   },
   "mcreatorVersion": 202500110519
->>>>>>> Stashed changes
 }
